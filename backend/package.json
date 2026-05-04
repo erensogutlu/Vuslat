@@ -2,8 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "sunucu.js",
   "scripts": {
+    "start": "node sunucu.js",
+    "dev": "nodemon sunucu.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
